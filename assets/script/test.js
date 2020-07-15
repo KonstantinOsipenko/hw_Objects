@@ -6,7 +6,6 @@ describe ('function clone' , () => {
 })
 describe ('function count' , () =>{
     it('Should count string on object' ,() =>{
-        
         expect(count()).to.equal(7)
     })
 })
