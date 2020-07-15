@@ -6,15 +6,7 @@ describe ('function clone' , () => {
 })
 describe ('function count' , () =>{
     it('Should count string on object' ,() =>{
-        function count () {
-            let counter = 0;
-            for( let key in burton){
-                if(typeof burton[key] == 'string'){
-                 counter++;
-                }
-            }
-            return counter
-        }
-        expect(count()).to.equal(6)
+        
+        expect(count()).to.equal(7)
     })
 })
